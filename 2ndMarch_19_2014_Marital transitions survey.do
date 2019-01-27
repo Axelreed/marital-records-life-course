@@ -1,9 +1,9 @@
 
 **********************
 if regexm(c(os),"Mac") == 1 {
-	global dir `"/Users/Alex/Google Drive/MA Thesis"' 
+	global dir `"/Users/Alex/Google Drive/MA"' 
 	}
-	else if regexm(c(os),"Windows") == 1 global dir `"C:/Users/areda/Google Drive/MA Thesis"' 
+	else if regexm(c(os),"Windows") == 1 global dir `"C:/Users/areda/Google Drive/MA"' 
 cd "$dir"
 capture log close
 log using transitions_paper.txt, replace
