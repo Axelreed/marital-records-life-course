@@ -7,10 +7,10 @@ if regexm(c(os),"Mac") == 1 {
 cd "$dir"
 capture log close
 log using transitions_paper.txt, replace
-global user "Alex Ayalu Reda"
+global user "Alex Reda"
 display "Analysis run by $user at `c(current_time)' `c(current_date)'"
 version 11.0
-//Ayalu Alex Reda
+//Alex Reda
 
 *Next I will generate all the variables needed for the new analysis.*
 clear all
